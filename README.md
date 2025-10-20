@@ -42,12 +42,7 @@ cd Video-Download-Tiktok-Api-key
 ```bash
 npm install
 ```
-3️⃣ Atur API Key
-Buat file .env:
-```bash
-API_KEY=YOUR_TIKTOK_API_KEY
-```
-4️⃣ Jalankan Server
+3️⃣ Jalankan Server
 ```bash
 npm start
 ```
