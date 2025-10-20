@@ -51,13 +51,13 @@ Akses di browser:
 
 🧪 Cara Menggunakan
 
-1.Buka aplikasi di browser.
+1. Buka aplikasi di browser.
 
-2.Tempelkan link video TikTok.
+2. Tempelkan link video TikTok.
 
-3.Klik Download.
+3. Klik Download.
 
-4.Pilih Unduh MP4 atau Unduh MP3.
+4. Pilih Unduh MP4 atau Unduh MP3.
 
 🛡️ Catatan
 
