@@ -70,5 +70,11 @@ Akses di browser:
 
 - **Jangan gunakan untuk tujuan melanggar hak cipta.**
 
+## 👨‍💻 Pengembang
+
+- **Nama:** zxkky  
+- **Proyek:** Video Download Tiktok Api key
+- **Versi:** 1.0.0  
+- **Lisensi:** MIT License  
 	
 	
