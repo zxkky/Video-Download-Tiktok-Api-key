@@ -1,0 +1,492 @@
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/down.basopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/down.basopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/down.basopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/down.basopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/down.basopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/down.basopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/down.basopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/down.basopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/down.basopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+internal/modules/cjs/loader.js:905
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/u9kj93yf/down.basopeso.my.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/u9kj93yf/down.basopeso.my.id/app.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/u9kj93yf/down.basopeso.my.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+/home/u9kj93yf/down.basopeso.my.id/app.js:70
+const PORT = process.env.PORT || 3000;
+      ^
+
+SyntaxError: Identifier 'PORT' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VDTok Downloader</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          animation: {
+            fadeIn: "fadeIn 1s ease-out forwards",
+            slideDown: "slideDown 1s ease-out forwards"
+          },
+          keyframes: {
+            fadeIn: { "0%": { opacity: 0 }, "100%": { opacity: 1 } },
+            slideDown: { "0%": { transform: "translateY(-20px)", opacity: 0 }, "100%": { transform: "translateY(0)", opacity: 1 } }
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-400 min-h-screen flex items-center justify-center p-6 font-sans text-gray-900">
+<!-- Welcome -->
+<div id="welcome-message" class="fixed inset-0 flex flex-col justify-center items-center text-center px-6 z-50 animate-fadeIn">
+  <div class="bg-white/90 backdrop-blur-md p-10 rounded-3xl shadow-2xl max-w-xl w-full border border-white/30 animate-slideDown">
+    <div class="text-6xl mb-4 animate-bounce">🚀</div>
+    <h1 class="text-4xl md:text-5xl font-extrabold text-indigo-600 mb-4">Selamat Datang!</h1>
+    <p class="text-gray-700 text-base md:text-lg mb-6 leading-relaxed">
+      Terima kasih telah menggunakan <span class="font-semibold text-indigo-500">VDTok Downloader</span>.  
+      Tempelkan link video kamu dan mulai download sekarang juga! ⚡
+    </p>
+  </div>
+</div>
+
+<!-- Loading -->
+<div id="loading-overlay" class="hidden fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+  <div class="bg-white p-6 rounded-2xl shadow-xl text-center animate-fadeIn">
+    <p class="text-xl font-semibold text-indigo-600 flex items-center gap-2">
+      ⏳ Mohon tunggu... <span class="animate-pulse">Sedang memproses</span>
+    </p>
+  </div>
+</div>
+
+<!-- Main -->
+<main id="main-content" class="hidden bg-white/90 backdrop-blur-lg shadow-2xl rounded-3xl p-10 max-w-2xl w-full animate-fadeIn relative z-10 border border-white/20">
+  <!-- Judul -->
+  <h1 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-500 text-center mb-8">VDTok Downloader</h1>
+
+  <% if (error) { %>
+    <p class="mt-4 text-center text-red-600 font-medium"><%= error %></p>
+  <% } %>
+
+  <!-- Form -->
+  <form id="download-form" action="/download" method="POST" class="space-y-6">
+    <!-- Input + Paste -->
+    <div class="relative">
+      <input
+        id="link-input"
+        type="text"
+        name="link"
+        placeholder="Tempelkan link VDTok di sini..."
+        class="w-full px-5 py-3 pr-12 border border-gray-300 rounded-2xl shadow-sm placeholder-gray-400 focus:outline-none focus:ring-4 focus:ring-indigo-300 focus:border-indigo-400 transition"
+        required
+        autocomplete="off"/>
+      <!-- Tombol Paste -->
+      <button type="button" id="paste-button" class="absolute top-1/2 right-3 -translate-y-1/2 text-indigo-500 hover:text-indigo-700 transition" title="Tempel dari clipboard">
+        📋
+      </button>
+    </div>
+
+    <!-- Tombol Download -->
+    <button type="submit" class="w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500 hover:scale-105 transform transition duration-300 text-white font-semibold py-3 rounded-2xl shadow-lg">
+      ⬇️ Download
+    </button>
+
+    <!-- Tombol Reset -->
+    <button
+      id="reset-button"
+      type="button"
+      class="w-full flex items-center justify-center gap-2 text-indigo-500 hover:text-indigo-700 text-sm font-medium underline mt-2 transition"
+    >
+      🔄 Reset
+    </button>
+  </form>
+
+  <!-- Preview Video -->
+  <% if (videoUrl) { %>
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">🎥 Preview Video</h2>
+      <video controls class="w-full rounded-2xl shadow-lg border border-indigo-300">
+        <source src="<%= videoUrl %>" type="video/mp4" />
+        Browser tidak mendukung pemutar video.
+      </video>
+      <a
+        href="<%= videoUrl %>"
+        download
+        class="block mt-5 w-full text-center bg-gradient-to-r from-green-500 to-emerald-600 hover:scale-105 transform transition text-white font-semibold py-3 rounded-2xl shadow-lg"
+      >💾 Unduh Video (MP4)</a>
+    </section>
+  <% } else if (videoUrl || audioUrl) { %>
+    <section class="flex justify-center gap-6 mt-10">
+      <% if (videoUrl) { %>
+        <video controls muted class="w-48 h-auto rounded-xl shadow-lg border border-indigo-300" preload="metadata">
+          <source src="<%= videoUrl %>" type="video/mp4" />
+        </video>
+      <% } %>
+      <% if (audioUrl) { %>
+        <audio controls class="self-center">
+          <source src="<%= audioUrl %>" type="audio/mpeg" />
+        </audio>
+      <% } %>
+    </section>
+  <% } %>
+
+  <!-- Preview Audio -->
+  <% if (audioUrl) { %>
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">🔊 Preview Audio</h2>
+      <audio controls class="w-full rounded-xl border border-gray-200">
+        <source src="<%= audioUrl %>" type="audio/mpeg" />
+      </audio>
+      <a
+        href="<%= audioUrl %>"
+        download
+        class="block mt-5 w-full text-center bg-gradient-to-r from-blue-500 to-cyan-600 hover:scale-105 transform transition text-white font-semibold py-3 rounded-2xl shadow-lg"
+      >🎶 Unduh MP3</a>
+    </section>
+  <% } %>
+</main>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const welcomeEl = document.getElementById("welcome-message");
+    const mainEl = document.getElementById("main-content");
+    const form = document.getElementById("download-form");
+    const loadingOverlay = document.getElementById("loading-overlay");
+    const resetButton = document.getElementById("reset-button");
+    const pasteButton = document.getElementById("paste-button");
+    const linkInput = document.getElementById("link-input");
+
+    const hasSeenWelcome = localStorage.getItem("seenWelcome");
+
+    if (!hasSeenWelcome) {
+      welcomeEl.classList.remove("hidden");
+      mainEl.classList.add("hidden");
+
+      setTimeout(() => {
+        welcomeEl.classList.add("hidden");
+        mainEl.classList.remove("hidden");
+        localStorage.setItem("seenWelcome", "true");
+      }, 3500);
+    } else {
+      welcomeEl.classList.add("hidden");
+      mainEl.classList.remove("hidden");
+    }
+
+    if (form) {
+      form.addEventListener("submit", () => {
+        loadingOverlay.classList.remove("hidden");
+      });
+    }
+
+    if (resetButton) {
+      resetButton.addEventListener("click", () => {
+        localStorage.removeItem("seenWelcome");
+        if (linkInput) linkInput.value = "";
+        window.location.href = "/";
+      });
+    }
+
+    if (pasteButton && linkInput) {
+      pasteButton.addEventListener("click", async () => {
+        try {
+          const text = await navigator.clipboard.readText();
+          if (text) {
+            linkInput.value = text;
+            linkInput.focus();
+          } else {
+            alert("Clipboard kosong!");
+          }
+        } catch (err) {
+          alert("Gagal membaca clipboard. Izinkan akses clipboard.");
+          console.error(err);
+        }
+      });
+    }
+  });
+</script>
+</body>
+</html>
