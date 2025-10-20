@@ -66,9 +66,9 @@ Akses di browser:
 
 🛡️ Catatan
 
--**Gunakan API resmi atau penyedia yang legal.**
+- **Gunakan API resmi atau penyedia yang legal.**
 
--**Jangan gunakan untuk tujuan melanggar hak cipta.**
+- **Jangan gunakan untuk tujuan melanggar hak cipta.**
 
 	
 	
